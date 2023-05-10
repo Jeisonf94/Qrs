@@ -35,28 +35,7 @@
   </style>
 </head>
 <body>
-  <h1 id="miTitulo">Bienvenido a formulario Colresin</h1> 
-
-  <div>
-    <button class="btn" onclick="verificarClave('clave1', 'https://docs.google.com/forms/d/e/1FAIpQLSfeO_RO4hvFtIqg7h7WqTtvdFKetmDyiANnbI0-1fegFVtoHg/viewform');">Facturación carbón</button>
-    <button class="btn" onclick="verificarClave('clave2', 'https://docs.google.com/forms/d/e/1FAIpQLSeo60umRo1n2J3gZbLgNwtgEadEsjrqjeP3Bnoxiz3UZT8FCw/viewform');">Bitácora de caldera</button>
-    <button class="btn" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSfSX7Txeq4anlisN1fMKC6tTgiCJBx7ETJJLW6aSn_PT6_X3A/viewform';">Aditivo para caldera</button>
-    <button class="btn" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdD0GaXMz3h0XLHMFLYaZkO0kdEcAfJK-RxflMtHigUSLRtVA/viewform';">Estado caldera</button>
-    <button class="btn" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLSdy9wTmNdA_iIkCkEm5GnD9nJws49vg5LieI3uy_gny3yK5UQ/viewform';">Registro consumo carbón</button>
-    <button class="btn" onclick="window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScafRkHROYXL9EWXQQiy2--O7tutSStD4mCOvfLQoIjNh4BYQ/viewform';">Purga caldera</button>
-  </div>
-  
-  <div class="bg-image"></div>
-
   <script>
-     function verificarClave(clave, urlDestino) {
-      var inputClave = prompt("Ingrese la clave:");
-
-      if (inputClave === clave) {
-            window.location.href = urlDestino;
-        } else {
-        }
-    
     const AS_URL_BASE = "https://script.google.com/macros/s/AKfycbw7MsHJEFsibaf541Tgkznc5SJnG7LkCCGcOVBioymtg8oRmIIqLqG5mzqQQKzFrbto/exec";
     
     var url = document.location.href;
